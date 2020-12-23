@@ -11,7 +11,7 @@
         <th colspan="2"><h2> Form Guru </h2></th>
     </tr>
     <tr>
-        <td width="100px"> NIP </td>
+        <td width="100px"> NIP Guru</td>
         <td><input type="text" name="nip" required oninvalid="this.setCustomValidity('Data Tidak Boleh Kosong !')" oninput="setCustomValidity('')"></td>
     </tr>
     <tr>
