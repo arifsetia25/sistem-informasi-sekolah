@@ -1,0 +1,50 @@
+body{
+    background: lightgreen;
+    font:14px "Calibri";
+}
+th{
+    background:black;
+    color:red;
+}
+a{
+    color: red;
+    text-decoration: none;
+    background:#333;
+    padding:5px 10px;
+    border-radius:3px;
+}
+a:hover{
+    background:blue;
+}
+input[type="text"]{
+    width:300px;
+    padding:10px;
+    margin:5px 0px;
+}
+textarea{
+    width:300px;
+    padding:10px;
+    height:50px;
+    resize:none;
+    font:14px "Calibri";
+}
+input[type="submit"], input[type="reset"]{
+    padding:5px 20px;
+    border:none;
+    border-radius:3px;
+    background:#333;
+    color:red;
+}
+input[type="submit"]:hover, input[type="reset"]:hover{
+    background:blue;
+    border:none;
+}
+form{
+    width:430px;
+    margin:20px auto;
+    padding:20px;
+    box-shadow: 0px 0px 10px 0px #333;
+}
+.garis-bawah{
+    border-bottom: 1px #ccc solid;
+}
